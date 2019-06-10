@@ -16,3 +16,7 @@ $("input").keypress(function(event) {
 		$("ul").append("<li><span><i class='fa fa-trash'></i></span>" + todoText + "</li>")
 	}
 });
+
+$(".fa-plus").click(function(){
+	$("input").fadeToggle();
+});
