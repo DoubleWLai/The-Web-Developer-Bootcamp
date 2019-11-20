@@ -54,6 +54,3 @@ Application of REpresentational State Transfer (REST)
 | Update  | `/campgrounds/:id/comments/:comment_id`      | PUT       | Update a particular comment, then redirect somewhere    | Comment.findByIdAndUpdate() |
 | Delete  | `/campgrounds/:id/comments/:comment_id`      | DELETE    | Delete a particular comment, then redirect somewhere    | Comment.findByIdAndRemove() |
 
-### NOTE:
-
-The application is hosted on [Cloud9 IDE](https://aws.amazon.com/cloud9/), an open-source Cloud Service provided by Amazon Web Services (AWS) for developing web applications.
